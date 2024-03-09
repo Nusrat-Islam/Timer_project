@@ -1,0 +1,78 @@
+body{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100vh;
+}
+
+.parent{
+    display : flex;
+    column-gap : 20px;
+}
+
+.main_box{
+    display : flex;
+    flex-direction : column;
+    row-gap: 20px;
+}
+
+.take_time, .startBtn{
+    padding:25px 0;
+    padding-left :20px;
+    
+}
+
+.startBtn{
+    cursor : pointer;
+    background: greenyellow;
+    color :blueviolet;
+    font-size :x-large;
+}
+
+.EndBtn{
+    cursor : pointer;
+    background: rgb(16, 27, 1);
+    color :blueviolet;
+    font-size :x-large;
+    padding : 20px;
+}
+
+.SecondTaketime, .secondBtn{
+    padding:25px 0;
+    padding-left :20px;
+}
+
+.secondBtn{
+    cursor : pointer;
+    background: rgb(6, 233, 6);
+    color :blueviolet;
+    font-size :x-large;
+}
+
+.endSecondBtn{
+    cursor : pointer;
+    background: rgb(16, 27, 1);
+    color :blueviolet;
+    font-size :x-large;
+    padding : 20px;
+}
+
+.endTimeThree, .startBtnThree, .EndBtnThree{
+    padding:25px 0;
+    padding-left :20px; 
+}
+
+.startBtnThree{
+    cursor : pointer;
+    background: rgb(6, 233, 6);
+    color :blueviolet;
+    font-size :x-large; 
+}
+
+.EndBtnThree{
+    cursor : pointer;
+    background: rgb(16, 27, 1);
+    color :blueviolet;
+    font-size :x-large;
+    padding : 20px;
+}
